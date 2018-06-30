@@ -1,0 +1,13 @@
+transferencia
+saques 
+depositos
+**pagamentos
+extrato{
+	saques
+	tranferencias
+	Depositos
+	todos
+	pesquisar por data
+}
+
+

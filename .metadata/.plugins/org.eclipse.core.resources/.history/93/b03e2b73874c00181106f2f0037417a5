@@ -1,0 +1,17 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Janela {
+	public Janela() {
+		JFrame frame = new JFrame();
+		frame.setSize(600,600);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JButton login = new JButton();
+		frame.getContentPane().add(login);;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new Janela();
+	}
+}
